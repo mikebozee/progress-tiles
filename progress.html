@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		html {
+			margin: 0;
+			padding: 0;
+			font-size: 16px;
+		}
+		body {
+			margin: 0;
+			padding: 50px;
+			background-color: #f5f5f5;
+			font-family: Helvetica, Verdana, Arial, sans-serif;
+		}
+		* {
+			box-sizing: border-box;
+		}
+
+		.tile-wrap {
+			width: 100%;
+			max-width: 1000px;
+			margin: 0 auto;
+		}
+		.tile-wrap ul {
+			margin: 0;
+			padding: 0;
+			list-style-type: none;
+		}
+		.tile-wrap li {
+			width: 100%;
+			max-width: 500px;
+			padding: 1.5rem;
+			background-color: #fff;
+			font-size: 1.25rem;
+			color: #333;
+			font-weight: 300;
+			cursor: pointer;
+			transition: all .6s ease-out;
+			border-right: 0px solid #f5f5f5;
+			border-left: 0px solid #f5f5f5;
+		}
+		.tile-wrap li:not(:first-of-type) {
+			border-top: 1px solid #e8e8e8;
+		}
+		.tile-wrap li:hover {
+			padding-left: 3rem;
+			transition: all .3s ease-out;
+			border-right: 3rem solid #f5f5f5;
+			border-left: 3rem solid #f5f5f5;
+		}
+	</style>
+</head>
+<body>
+	<div class="tile-wrap">
+		<ul>
+			<li>JavaScript</li>
+			<li>PHP</li>
+			<li>Python</li>
+			<li>Java</li>
+			<li>Ruby</li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+	</div>
+</body>
+</html>
